@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DocuBridge AI · Trazabilidad verificable del transporte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="logo" href="#"><i></i>DocuBridge AI</a>
+  <ul><li><a href="#inicio">Inicio</a></li><li><a href="#funciones">Funciones</a></li><li><a href="#demo">Demo en vivo</a></li><li><a href="#evidencia">Evidencias</a></li><li><a href="#alcance">Alcance</a></li></ul>
+  <a class="btn" href="#demo">Probar la demo</a>
+</div></nav>
+
+<header class="hero" id="inicio">
+  <div class="wrap">
+    <span class="pill">Prototipo · Trazabilidad de cargas</span>
+    <h1>Reconstruí cada entrega,<br><b>verificá cada registro</b></h1>
+    <p>DocuBridge AI documenta lo que ocurre durante el transporte de mercancías, para que tu empresa pueda investigar incidentes con evidencia digital y datos ambientales.</p>
+    <div class="cta"><a class="btn light" href="#demo">Ver demo con datos reales</a><a class="btn ghost" href="#funciones">Conocer las funciones</a></div>
+  </div>
+  <div class="horizon"><div class="glow"></div>
+    <div class="stats"><span><b>Open-Meteo</b> clima diario</span><span><b>SHA-256</b> integridad</span><span><b>GPS</b> con permiso</span></div>
+  </div>
+</header>
+
+<section class="center" id="que-es">
+  <div class="wrap">
+    <span class="pill">Qué es</span>
+    <h2>Si una carga refrigerada llega en mal estado, el historial del viaje responde qué pasó.</h2>
+    <p>Pensado para vacunas, alimentos refrigerados y cualquier carga sensible: eventos, ubicaciones autorizadas y datos ambientales en un solo registro revisable.</p>
+    <a class="btn" href="#evidencia">Ver cómo se protege el registro</a>
+  </div>
+</section>
+
+<section class="arc-sec center" id="funciones" style="padding-bottom:40px">
+  <div class="wrap">
+    <div class="arc" id="arc">
+      <div class="arc-text">
+        <span class="pill">Todo el viaje</span>
+        <h2>Seis funciones, un mismo historial.</h2>
+        <p>Seguimiento, alertas, ubicación, clima, evidencia y exportación.</p>
+        <a class="btn" href="#demo">Probar la demo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cards">
+      <article class="card"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></div><h3>Seguimiento del recorrido</h3><p>Registrá eventos y ubicaciones de cada tramo.</p>
+        <div class="mini"><svg viewBox="0 0 200 100" width="100%" aria-label="Recorrido simulado"><path d="M10 80 C50 20 80 90 120 50 S180 30 190 20" fill="none" stroke="#7c3aed" stroke-width="2" stroke-dasharray="4 4"/><circle cx="10" cy="80" r="5" fill="#a78bfa"/><circle cx="120" cy="50" r="5" fill="#a78bfa"/><circle cx="190" cy="20" r="6" fill="#4ade80"/><text x="16" y="96" fill="#9a93bd" font-size="9">Salida</text><text x="150" y="42" fill="#9a93bd" font-size="9">Destino</text></svg></div></article>
+      <article class="card"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/></svg></div><h3>Control de incidentes</h3><p>Simulá alertas cuando la temperatura sale del rango.</p>
+        <div class="mini"><div style="display:flex;justify-content:space-between;margin-bottom:8px"><span>Rango esperado</span><b style="color:var(--text)">2 – 8 °C</b></div><div style="display:flex;justify-content:space-between;margin-bottom:12px"><span>Lectura simulada</span><span class="tag bad">11,4 °C · fuera de rango</span></div><div style="height:8px;border-radius:9px;background:linear-gradient(90deg,#38bdf8 0 25%,#4ade80 25% 60%,#fb7185 60%)"></div></div></article>
+      <article class="card"><div class="ico"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div><h3>Evidencia protegida</h3><p>Los hashes delatan cualquier modificación posterior.</p>
+        <div class="mini"><div style="font:11px ui-monospace,Menlo,monospace;color:var(--v2);word-break:break-all">3f9a…c71e<br>└ a07b…12d4<br>&nbsp;&nbsp;└ e55c…9b08</div><div style="margin-top:10px"><span class="tag ok">Cadena íntegra</span></div></div></article>
+    </div>
+    <div class="feats">
+      <div><b><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Geolocalización</b>Solo si el usuario da permiso.</div>
+      <div><b><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a7.31 7.31 0 0 0 10 10Z"/><path d="m9 15 3-3"/><path d="M17 13a6 6 0 0 0-6-6"/><path d="M21 13A10 10 0 0 0 11 3"/></svg> Datos ambientales</b>Temperatura y precipitaciones diarias.</div>
+      <div><b><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 13H8"/><path d="M16 17H8"/></svg> Historial</b>Conservá y revisá los registros.</div>
+      <div><b><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg> Exportación</b>Llevá la evidencia a tu auditoría.</div>
+    </div>
+  </div>
+</section>
+
+<section class="center" id="demo" style="padding-top:40px">
+  <div class="wrap">
+    <span class="pill">Demo en vivo con Open-Meteo</span>
+    <h2>Clima real del recorrido, temperatura de carga simulada.</h2>
+    <p>Elegí un punto del trayecto o usá tu ubicación. Consultamos Open-Meteo y comparamos con un rango de 2 a 8 °C.</p>
+    <div class="panel demo" style="margin-top:30px">
+      <div>
+        <div class="row">
+          <select id="city" aria-label="Punto del recorrido">
+            <option value="-34.60,-58.38,Buenos Aires">Buenos Aires</option>
+            <option value="-31.42,-64.18,Córdoba">Córdoba</option>
+            <option value="-32.95,-60.64,Rosario">Rosario</option>
+            <option value="-24.78,-65.41,Salta">Salta</option>
+            <option value="-25.60,-54.57,Puerto Iguazú">Puerto Iguazú</option>
+          </select>
+          <button class="btn ghost" id="geo" type="button">Usar mi ubicación</button>
+        </div>
+        <div class="kpis">
+          <div class="kpi"><small>Aire ahora</small><strong id="k1">–</strong></div>
+          <div class="kpi"><small>Lluvia hoy</small><strong id="k2">–</strong></div>
+          <div class="kpi"><small>Incidentes simulados</small><strong id="k3">–</strong></div>
+        </div>
+        <div id="chart" style="min-height:190px"></div>
+        <p class="note" id="status">Cargando datos…</p>
+      </div>
+      <div>
+        <h3 style="font-size:16px;margin-bottom:10px">Registro de la operación</h3>
+        <div id="events" class="log"></div>
+        <h3 style="font-size:16px;margin:18px 0 10px">Seguimiento GPS</h3>
+        <div class="row">
+          <button class="btn" id="gpsStart" type="button">Iniciar GPS</button>
+          <button class="btn ghost" id="gpsStop" type="button" disabled>Detener</button>
+          <button class="btn ghost" id="gpsCsv" type="button" disabled>Exportar CSV</button>
+        </div>
+        <div class="kpis"><div class="kpi"><small>Latitud</small><strong id="g1">–</strong></div><div class="kpi"><small>Longitud</small><strong id="g2">–</strong></div><div class="kpi"><small>Precisión</small><strong id="g3">–</strong></div></div>
+        <div id="gpsTrack"></div>
+        <div id="gpsLog" class="log"></div>
+        <p class="note" id="gpsStatus">El GPS se activa solo si das permiso. Cada punto queda con su hash.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="center" id="evidencia" style="padding-top:20px">
+  <div class="wrap">
+    <span class="pill">Protección de evidencias</span>
+    <h2>Cada evento queda encadenado al anterior.</h2>
+    <p>Si alguien cambia un registro, su hash deja de coincidir y la cadena se marca como alterada. Probalo.</p>
+    <div class="panel" style="max-width:720px;margin:0 auto;text-align:left">
+      <div class="row" style="justify-content:space-between;align-items:center"><span id="chainState" class="tag ok">Cadena íntegra</span>
+        <span><button class="btn ghost" id="tamper" type="button">Alterar el evento 2</button> <button class="btn ghost" id="restore" type="button">Restaurar</button></span></div>
+      <div id="chain" class="log"></div>
+    </div>
+  </div>
+</section>
+
+<section id="alcance" style="padding-top:20px">
+  <div class="wrap"><div class="proto">
+    <h2>Qué es real hoy y qué es simulado</h2>
+    <ul>
+      <li>DocuBridge AI es un prototipo: los recorridos y las temperaturas de la carga son simulados.</li>
+      <li>Los datos ambientales (Open-Meteo) describen el clima del lugar y no reemplazan un sensor dentro del vehículo.</li>
+      <li>Falta confirmar el funcionamiento completo del GPS físico y de la conexión con NASA POWER.</li>
+    </ul>
+  </div></div>
+</section>
+
+<div class="cta-end">
+  <h2>Reconstruí lo ocurrido, con registros que se pueden verificar.</h2>
+  <p>Probá la demo y revisá cómo quedaría el historial de una entrega.</p>
+  <a class="btn light" href="#demo">Ir a la demo</a>
+</div>
+<footer>DocuBridge AI · Prototipo · Datos meteorológicos de <a href="https://open-meteo.com/" style="text-decoration:underline">Open-Meteo.com</a> (CC BY 4.0)</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
